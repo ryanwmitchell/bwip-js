@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "BWIP-JS", "functions\BWIP-JS.njsproj", "{7104F8D3-5CDC-40AF-BCE8-B658F5391067}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7104F8D3-5CDC-40AF-BCE8-B658F5391067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7104F8D3-5CDC-40AF-BCE8-B658F5391067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7104F8D3-5CDC-40AF-BCE8-B658F5391067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7104F8D3-5CDC-40AF-BCE8-B658F5391067}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96897C3A-4D54-4090-84BB-435EB64E1B7B}
+	EndGlobalSection
+EndGlobal

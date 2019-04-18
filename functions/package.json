@@ -1,6 +1,6 @@
 {
   "name": "bwip-js",
-  "version": "1.7.1.2",
+  "version": "1.7.2",
   "description": "JavaScript barcode generator supporting over 90 types and standards.",
   "main": "node-bwipjs.js",
   "module": "browser-bwipjs.js",
@@ -9,8 +9,7 @@
     "bwip-js": "./bin/node-bwipjs.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "firebase serve --only functions",
     "shell": "firebase functions:shell",
     "start": "npm run shell",
@@ -26,9 +25,9 @@
     "generator",
     "barcode",
     "javascript",
-	"node",
-	"react",
-	"browser",
+    "node",
+    "react",
+    "browser",
     "itf",
     "gs1",
     "upc",
