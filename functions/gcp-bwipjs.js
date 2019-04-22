@@ -1,4 +1,4 @@
-// file: bwip-js/node-bwipjs.js
+// file: bwip-js/gcp-bwipjs.js
 //
 // This is part of the bwip-js project available at:
 //
@@ -61,7 +61,7 @@ module.exports = function(req, res, opts) {
         } else {
             res.status(200)
                .contentType('image/png')
-			   .send(png, 'binary');
+			   .send(png);
 		}
 	});
 }
