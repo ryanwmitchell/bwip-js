@@ -53,9 +53,9 @@ module.exports = function(req, res, opts) {
 		args[id] = opts[id];
 	}
 
-	module.exports.toBuffer(args, function(err, png) {
+	module.exports.toBuffer(args, function(err, png, status) {
         if (err) {
-            res.status(400)
+            res.status(status || 400)
                .contentType('text/plain')
 			   .send('' + (err.stack || err));
         } else {
@@ -97,7 +97,7 @@ module.exports.toBuffer = function(args, callback) {
 		return callback('Bar code text not specified.');
 	}
 	if (!bcid) {
-		return callback('Bar code type not specified.');
+		return callback('Bar code type not specified.', null, 404);
 	}
 
 	// Initialize a barcode writer object.  This is the interface between
