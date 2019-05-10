@@ -16,6 +16,9 @@
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log"
   },
+  "engines": {
+    "node": "8"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/zebra/bwip-js.git"
