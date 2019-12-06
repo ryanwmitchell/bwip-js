@@ -91,7 +91,7 @@ module.exports.toBuffer = function(args, callback) {
     var padY	= +args.paddingheight || 0;
 
     // The required parameters
-    var bcid	= args.bcid;
+    var bcid	= args.bcid || args.symbology;
     var text	= args.text;
 
     if (!bcid || typeof bcid === "boolean") {
@@ -114,6 +114,7 @@ module.exports.toBuffer = function(args, callback) {
 
     // Remove the non-BWIPP options
     delete opts.bcid;
+    delete opts.symbology;
     delete opts.text;
     delete opts.scale;
     delete opts.scaleX;
